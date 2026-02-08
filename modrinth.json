@@ -1,0 +1,12 @@
+{
+  "name": "MorePlusFPS v2",
+  "summary": "Extreme FPS boost for Fabric 1.21.11+: culling + particle removal",
+  "versionId": "2.0.0",
+  "gameVersions": [
+    "1.21.11"
+  ],
+  "loaders": [
+    "fabric"
+  ],
+  "license": "MIT"
+}
