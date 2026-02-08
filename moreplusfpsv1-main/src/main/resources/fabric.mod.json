@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "moreplusfps",
+  "version": "2.0.0",
+  "name": "MorePlusFPS v2",
+  "description": "Ultra-aggressive client FPS optimizations: entity/block culling + optional particle removal. Fabric-only.",
+  "authors": [
+    "Goofyblox"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.moreplusfps.MorePlusFPS"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21.11",
+    "fabric": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modrinth": "https://modrinth.com/mod/moreplusfps",
+        "curseforge": "https://www.curseforge.com/minecraft/mc-mods/moreplusfps"
+      }
+    }
+  }
+}
