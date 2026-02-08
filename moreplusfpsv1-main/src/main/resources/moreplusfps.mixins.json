@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.moreplusfps.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EntityCullingMixin",
+    "ItemCullingMixin",
+    "LoadingScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "com.moreplusfps.mixin.ParticleDisableMixin"
+  ]
+}
